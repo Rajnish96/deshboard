@@ -15,6 +15,11 @@ import CIcon from '@coreui/icons-react'
 import { cilLockLocked, cilUser } from '@coreui/icons'
 
 const Register = () => {
+  let str = 'dmfjer'
+  let v = []
+  Array.from(str).map((e) => v.unshift(e))
+  console.log(v.toString())
+
   return (
     <div className="bg-light min-vh-100 d-flex flex-row align-items-center">
       <CContainer>
@@ -24,6 +29,7 @@ const Register = () => {
               <CCardBody className="p-4">
                 <CForm>
                   <h1>Register</h1>
+                  <h1>Bahut Marunga</h1>
                   <p className="text-medium-emphasis">Create your account</p>
                   <CInputGroup className="mb-3">
                     <CInputGroupText>
